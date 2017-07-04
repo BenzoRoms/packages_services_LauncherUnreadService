@@ -52,7 +52,7 @@ public class LauncherUnreadService extends Service {
     private static final int CONTENT_OBSERVER_HANDLER_DELAY_MS = 1000;
     private Handler mHandler = new Handler();
     private ComponentName mMmsComponentName = new
-            ComponentName("com.android.mms", "com.android.mms.ui.ConversationList");
+            ComponentName("com.android.messaging", "com.android.messaging.datamodel.MessagingContentProvider");
     private ComponentName mDialerComponentName = new
             ComponentName("com.android.dialer", "com.android.dialer.DialtactsActivity");
 
